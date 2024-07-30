@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Website</title>
+</head>
+<style>
+    *{
+        text-align: center;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: rgb(236, 235, 235);
+    }
+    .info{
+        background-color: white;
+        padding: 2%;
+        width: 50%;
+        margin: auto;
+        border-radius: 2%;
+    }
+    #cityName{
+        background-color: white;
+    }
+    #btn{
+        background-color: rgb(55, 55, 55);
+        color: white;
+        padding: 0.5%;
+        border-radius: 30%;
+    }
+    #name{
+        line-height: 2;
+    }
+</style>
+<body>
+    <div class="container">
+        <h1>Search Weather</h1>
+        <div class="weather">
+            <input type="text" placeholder="Enter City Name" id="name">
+            <button onclick="getWeather()" id="btn">Get Weather</button>
+        </div><br>
+        <div class="info">
+            <h2 id="cityName"></h2>
+        </div>
+    </div>
+</body>
+<script>
+    function getWeather(){
+        
+    }
+</script>
+</html>
